@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "app",
+      "type": "cs.software.demo.config.AppConfig",
+      "sourceType": "cs.software.demo.config.AppConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.authorized-redirect-uris",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "cs.software.demo.config.AppConfig"
+    },
+    {
+      "name": "app.token-expiration-msec",
+      "type": "java.lang.Long",
+      "sourceType": "cs.software.demo.config.AppConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "app.token-secret",
+      "type": "java.lang.String",
+      "sourceType": "cs.software.demo.config.AppConfig"
+    }
+  ],
+  "hints": []
+}
